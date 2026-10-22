@@ -1,0 +1,4 @@
+# The core demo runs with the Python standard library.
+# These packages enable PDF and DOCX ingestion.
+pypdf>=5.0.0
+python-docx>=1.1.0

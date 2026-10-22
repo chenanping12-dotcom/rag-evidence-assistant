@@ -1,0 +1,50 @@
+[
+  {
+    "id": "q1",
+    "question": "系统如何保留 PDF 页码和 Markdown 行号，方便回答引用？",
+    "expected_sources": ["rag_architecture.md"],
+    "k": 5
+  },
+  {
+    "id": "q2",
+    "question": "BM25 和 TF-IDF 在混合检索中分别解决什么问题？",
+    "expected_sources": ["rag_architecture.md"],
+    "k": 5
+  },
+  {
+    "id": "q3",
+    "question": "哪些 Provider 错误可以重试，哪些错误不应该盲目重试？",
+    "expected_sources": ["ai_gateway_runbook.md"],
+    "k": 5
+  },
+  {
+    "id": "q4",
+    "question": "SSE 网关需要记录哪些延迟和计量字段？",
+    "expected_sources": ["ai_gateway_runbook.md"],
+    "k": 5
+  },
+  {
+    "id": "q5",
+    "question": "知识库助手的核心用户和页面输出是什么？",
+    "expected_sources": ["product_requirements.md"],
+    "k": 5
+  },
+  {
+    "id": "q6",
+    "question": "为什么不能把小样本演示结果直接包装成生产准确率？",
+    "expected_sources": ["product_requirements.md", "rag_architecture.md"],
+    "k": 5
+  },
+  {
+    "id": "q7",
+    "question": "系统后续如何接入中文 embedding 和 reranker？",
+    "expected_sources": ["product_requirements.md", "rag_architecture.md"],
+    "k": 5
+  },
+  {
+    "id": "q8",
+    "question": "超过虚拟 Key 预算之后可以采取什么动作？",
+    "expected_sources": ["ai_gateway_runbook.md"],
+    "k": 5
+  }
+]

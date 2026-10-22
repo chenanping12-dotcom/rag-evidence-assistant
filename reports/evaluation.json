@@ -1,0 +1,160 @@
+{
+  "generated_at": "2026-10-22T02:15:19.897326+00:00",
+  "index": "E:\\桌面\\我的简历\\rag-evidence-assistant\\storage\\index.json",
+  "strategy": "hybrid",
+  "questions": 8,
+  "metrics": {
+    "recall_at_5": 1.0,
+    "mrr_at_5": 0.875,
+    "precision_at_5": 0.35
+  },
+  "note": "Demo corpus evaluation; metrics measure source retrieval, not general answer quality.",
+  "cases": [
+    {
+      "id": "q1",
+      "question": "系统如何保留 PDF 页码和 Markdown 行号，方便回答引用？",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "precision_at_k": 0.4,
+      "expected_sources": [
+        "rag_architecture.md"
+      ],
+      "retrieved_sources": [
+        "rag_architecture.md",
+        "product_requirements.md",
+        "rag_architecture.md",
+        "ai_gateway_runbook.md",
+        "conversation_memory.md"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "q2",
+      "question": "BM25 和 TF-IDF 在混合检索中分别解决什么问题？",
+      "hit_at_k": true,
+      "reciprocal_rank": 0.5,
+      "precision_at_k": 0.2,
+      "expected_sources": [
+        "rag_architecture.md"
+      ],
+      "retrieved_sources": [
+        "product_requirements.md",
+        "rag_architecture.md",
+        "product_requirements.md",
+        "customer_support_playbook.md",
+        "conversation_memory.md"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "q3",
+      "question": "哪些 Provider 错误可以重试，哪些错误不应该盲目重试？",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "precision_at_k": 0.6,
+      "expected_sources": [
+        "ai_gateway_runbook.md"
+      ],
+      "retrieved_sources": [
+        "ai_gateway_runbook.md",
+        "ai_gateway_runbook.md",
+        "ai_gateway_runbook.md",
+        "knowledge_ingestion_sop.md",
+        "feature_flag_runbook.md"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "q4",
+      "question": "SSE 网关需要记录哪些延迟和计量字段？",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "precision_at_k": 0.2,
+      "expected_sources": [
+        "ai_gateway_runbook.md"
+      ],
+      "retrieved_sources": [
+        "ai_gateway_runbook.md",
+        "feature_flag_runbook.md",
+        "observability_slo.md",
+        "product_requirements.md",
+        "cost_optimization.md"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "q5",
+      "question": "知识库助手的核心用户和页面输出是什么？",
+      "hit_at_k": true,
+      "reciprocal_rank": 0.5,
+      "precision_at_k": 0.2,
+      "expected_sources": [
+        "product_requirements.md"
+      ],
+      "retrieved_sources": [
+        "customer_support_playbook.md",
+        "product_requirements.md",
+        "rag_architecture.md",
+        "customer_support_playbook.md",
+        "api_security_runbook.md"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "q6",
+      "question": "为什么不能把小样本演示结果直接包装成生产准确率？",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "precision_at_k": 0.2,
+      "expected_sources": [
+        "product_requirements.md",
+        "rag_architecture.md"
+      ],
+      "retrieved_sources": [
+        "product_requirements.md",
+        "prompt_guardrails.md",
+        "prompt_guardrails.md",
+        "knowledge_ingestion_sop.md",
+        "customer_support_playbook.md"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "q7",
+      "question": "系统后续如何接入中文 embedding 和 reranker？",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "precision_at_k": 0.6,
+      "expected_sources": [
+        "product_requirements.md",
+        "rag_architecture.md"
+      ],
+      "retrieved_sources": [
+        "product_requirements.md",
+        "product_requirements.md",
+        "prompt_guardrails.md",
+        "product_requirements.md",
+        "cost_optimization.md"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "q8",
+      "question": "超过虚拟 Key 预算之后可以采取什么动作？",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "precision_at_k": 0.4,
+      "expected_sources": [
+        "ai_gateway_runbook.md"
+      ],
+      "retrieved_sources": [
+        "ai_gateway_runbook.md",
+        "feature_flag_runbook.md",
+        "ai_gateway_runbook.md",
+        "rag_architecture.md",
+        "prompt_guardrails.md"
+      ],
+      "rank": 1
+    }
+  ]
+}
